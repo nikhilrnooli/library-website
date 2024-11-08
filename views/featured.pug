@@ -1,0 +1,12 @@
+div
+   div(class='row')
+      h2 Featured Books
+   div(class='row row-cols-3')
+      each val in books
+         div(class='col-4 my-3')
+            div(class='card') 
+               div(class='card-body')
+                  h4(class='card-title')=val.title
+                  span(class='card-subtitle text-muted')=val.author
+                  p(class='card-text')=val.publisher
+                  

@@ -1,0 +1,16 @@
+.jumbotron {
+    height: 50vh;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    background-color: #502274;
+    color: #f5f5f5;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-title{
+    font-size: 3em;
+}
